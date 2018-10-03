@@ -23,8 +23,9 @@ A webpage that will confirm whether a user input is a palindrome.
 | Program converts input to lowercase | _Input:_ "SCREAMING AHhHhH" | _Output:_ "screaming ahhhhh" |
 | Program parses input into array of characters | _Input:_ "word word" | _Output:_ [w, o, r, d, , w, o, r, d]|
 | Program creates second array that is a duplicate of the previous, but in reverse order | _Input:_ "word word" | _Output:_ [d, r, o, w, , d, r, o, w]|
-| Program returns false if first array and second are not equal | _Input:_ "n00b" |  _Output:_ false |
-| Program returns true if first array and second are equal | _Input:_ "b00b" |  _Output:_ true |
+| Program collates this reverse array into a string. | _Input:_ [d, r, o, w, , d, r, o, w] | _Output:_ "drow drow" |
+| Program returns false if user input and string generated from reverse array are not equal | _Input:_ "n00b" |  _Output:_ false |
+| Program returns true if user input and string generated from reverse array are not equal | _Input:_ "b00b" |  _Output:_ true |
 
 ## Known Bugs
 
