@@ -17,11 +17,10 @@ $(document).ready(function() {
       var inputStringReverse = inputArrayReverse.join("");
       console.log(inputStringReverse);
 
-//DOES NOT CORRECTLY COMPARE STRINGS//
       if (inputString === inputStringReverse) {
         $('#output').text("Your input IS a palindrome.");
       } else if (inputString !== inputStringReverse) {
-        $('#output').text("Your input IS a palindrome.");
+        $('#output').text("Your input is NOT a palindrome.");
       }
     }
   });

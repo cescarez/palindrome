@@ -29,7 +29,7 @@ A webpage that will confirm whether a user input is a palindrome.
 
 ## Known Bugs
 
-_10/2/18 CCE: currently compares input.length and does not compare values within input, input...Reverse._
+_No known bugs, to date._
 
 ## Support and contact details
 
